@@ -1,0 +1,13 @@
+{
+  "name": "webhooks-runner",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Gwokhov",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "scripts": {
+    "start": "pm2 start ./app.js --name webhooks --"
+  }
+}
